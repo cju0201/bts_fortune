@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="ARMY Bomb light stick">
+  <defs>
+    <radialGradient id="globe" cx="40%" cy="28%" r="66%">
+      <stop offset="0%" stop-color="#fff"/>
+      <stop offset="48%" stop-color="#f5e7ff"/>
+      <stop offset="100%" stop-color="#b996ff"/>
+    </radialGradient>
+    <linearGradient id="handle" x1="42" y1="54" x2="86" y2="122" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f8f1ff"/>
+      <stop offset="55%" stop-color="#cdb6ff"/>
+      <stop offset="100%" stop-color="#7b4dff"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <circle cx="64" cy="34" r="27" fill="#d8c3ff" opacity=".28" filter="url(#glow)"/>
+  <circle cx="64" cy="34" r="23" fill="url(#globe)" stroke="#fff" stroke-width="4"/>
+  <path d="M48 54h32l5 9H43z" fill="#efe5ff" stroke="#7b4dff" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="51" y="61" width="26" height="50" rx="10" fill="url(#handle)" stroke="#4a148c" stroke-width="3"/>
+  <path d="M58 70h12M58 80h12" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+  <path d="M50 114h28" stroke="#c5a059" stroke-width="5" stroke-linecap="round"/>
+  <path d="M88 21l8-8M97 36h12M32 21l-8-8M21 36H9" stroke="#f2d583" stroke-width="5" stroke-linecap="round"/>
+</svg>
