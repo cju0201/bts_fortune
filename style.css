@@ -473,17 +473,17 @@ body::before {
 
 /* 🎋 飛出來的籤枝：強制鎖死尺寸，保證所有圖片（含PNG）大小絕對一致 */
 .flying-stick {
-    position: fixed;
-    width: 675px;
-    height: 1800px;     /* 將目前尺寸縮小一半 /
+    position: fixed; 
+    width: 675px;       
+    height: 1800px;     /* 將目前尺寸縮小一半 */
     max-width: 67.5vw;
     max-height: 60svh;
-    object-fit: contain;/ 確保籤枝等比例完整顯示，絕不縮水或變形 */
-    top: 50%;
+    object-fit: contain;/* 確保籤枝等比例完整顯示，絕不縮水或變形 */
+    top: 50%;         
     left: 50%;
-    transform: translate(-50%, -50%);
-    display: none;
-    z-index: 99;
+    transform: translate(-50%, -50%); 
+    display: none;      
+    z-index: 99;        
 }
 
 .shoot-up {
@@ -1118,10 +1118,10 @@ body::before {
     }
 
     .flying-stick {
-        width: 90vw;
+        width: min(90vw, 70svh);
         height: auto;
         max-width: none;
-        max-height: none;
+        max-height: 78svh;
     }
     
 
