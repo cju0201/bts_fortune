@@ -1118,9 +1118,10 @@ body::before {
     }
 
     .flying-stick {
-        width: 330px;
-        height: 900px;
-        top: 120px;
+        height: 1350px;
+        max-width: 90vw;
+        max-height: 78svh;
+        top: 50%;
     }
     
 
