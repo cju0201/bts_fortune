@@ -1118,7 +1118,7 @@ body::before {
     }
 
     .flying-stick {
-        width: min(90vw, 40svh);
+        width: min(90vw, 70svh);
         height: auto;
         max-width: none;
         max-height: 78svh;
