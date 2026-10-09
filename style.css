@@ -1121,7 +1121,7 @@ body::before {
         width: min(90vw, 70svh);
         height: auto;
         max-width: none;
-        max-height: 78svh;
+        max-height: 90svh;
     }
 
     .hint-text {
